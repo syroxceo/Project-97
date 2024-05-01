@@ -1,0 +1,528 @@
+
+/* Default Theme */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 32px;
+    color: #fff;
+}
+
+.header select {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.todo, .timer, .affirmation, .goal, .notes {
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+input[type="text"],
+textarea {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #166318;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Red & White Theme */
+body.red-white {
+    background-color: #ffe6e6;
+    color: #cc0000;
+}
+
+.red-white .container {
+    background-color: #ffd6d6;
+    border: 5px solid #cc0000;
+}
+
+.red-white h2 {
+    color: #cc0000;
+}
+
+.red-white input[type="text"],
+.red-white textarea {
+    background-color: #fff;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+}
+
+.red-white button {
+    background-color: #cc0000;
+}
+
+
+/* Red & Black Theme */
+body.red-black {
+    background-color: #333;
+    color: #ff4d4d;
+}
+
+.red-black .container {
+    background-color: #4d4d4d;
+    border: 5px solid #ff4d4d;
+}
+
+.red-black h2 {
+    color: #ff4d4d;
+}
+
+.red-black input[type="text"],
+.red-black textarea {
+    background-color: #333;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+}
+
+.red-black button {
+    background-color: #ff4d4d;
+}
+
+/* Orange & White Theme */
+body.orange-white {
+    background-color: #fff2e6;
+    color: #ff6600;
+}
+
+.orange-white .container {
+    background-color: #ffe0cc;
+    border: 5px solid #ff6600;
+}
+
+.orange-white h2 {
+    color: #ff6600;
+}
+
+.orange-white input[type="text"],
+.orange-white textarea {
+    background-color: #fff;
+    color: #ff6600;
+    border: 1px solid #ff6600;
+}
+
+.orange-white button {
+    background-color: #ff6600;
+}
+
+/* Orange & Black Theme */
+body.orange-black {
+    background-color: #1a1a1a;
+    color: #ffa31a;
+}
+
+.orange-black .container {
+    background-color: #333;
+    border: 5px solid #ffa31a;
+}
+
+.orange-black h2 {
+    color: #ffa31a;
+}
+
+.orange-black input[type="text"],
+.orange-black textarea {
+    background-color: #1a1a1a;
+    color: #ffa31a;
+    border: 1px solid #ffa31a;
+}
+
+.orange-black button {
+    background-color: #ffa31a;
+}
+
+/* Yellow & White Theme */
+body.yellow-white {
+    background-color: #ffffcc;
+    color: #cccc00;
+}
+
+.yellow-white .container {
+    background-color: #ffff99;
+    border: 5px solid #cccc00;
+}
+
+.yellow-white h2 {
+    color: #cccc00;
+}
+
+.yellow-white input[type="text"],
+.yellow-white textarea {
+    background-color: #fff;
+    color: #cccc00;
+    border: 1px solid #cccc00;
+}
+
+.yellow-white button {
+    background-color: #cccc00;
+}
+
+/* Yellow & Black Theme */
+body.yellow-black {
+    background-color: #000;
+    color: #ffff66;
+}
+
+.yellow-black .container {
+    background-color: #333;
+    border: 5px solid #ffff66;
+}
+
+.yellow-black h2 {
+    color: #ffff66;
+}
+
+.yellow-black input[type="text"],
+.yellow-black textarea {
+    background-color: #000;
+    color: #ffff66;
+    border: 1px solid #ffff66;
+}
+
+.yellow-black button {
+    background-color: #ffff66;
+}
+
+/* Green & White Theme */
+body.green-white {
+    background-color: #e6ffe6;
+    color: #008000;
+}
+
+.green-white .container {
+    background-color: #ccffcc;
+    border: 5px solid #008000;
+}
+
+.green-white h2 {
+    color: #008000;
+}
+
+.green-white input[type="text"],
+.green-white textarea {
+    background-color: #fff;
+    color: #008000;
+    border: 1px solid #008000;
+}
+
+.green-white button {
+    background-color: #008000;
+}
+
+/* Green & Black Theme */
+body.green-black {
+    background-color: #0a290a;
+    color: #00cc44;
+}
+
+.green-black .container {
+    background-color: #004d00;
+    border: 5px solid #00cc44;
+}
+
+.green-black h2 {
+    color: #00cc44;
+}
+
+.green-black input[type="text"],
+.green-black textarea {
+    background-color: #0a290a;
+    color: #00cc44;
+    border: 1px solid #00cc44;
+}
+
+.green-black button {
+    background-color: #00cc44;
+}
+
+/* Blue & White Theme */
+body.blue-white {
+    background-color: #e6f9ff;
+    color: #0066cc;
+}
+
+.blue-white .container {
+    background-color: #cce6ff;
+    border: 5px solid #0066cc;
+}
+
+.blue-white h2 {
+    color: #0066cc;
+}
+
+.blue-white input[type="text"],
+.blue-white textarea {
+    background-color: #fff;
+    color: #0066cc;
+    border: 1px solid #0066cc;
+}
+
+.blue-white button {
+    background-color: #0066cc;
+}
+
+/* Blue & Black Theme */
+body.blue-black {
+    background-color: #000022;
+    color: #3399ff;
+}
+
+.blue-black .container {
+    background-color: #000044;
+    border: 5px solid #3399ff;
+}
+
+.blue-black h2 {
+    color: #3399ff;
+}
+
+.blue-black input[type="text"],
+.blue-black textarea {
+    background-color: #000022;
+    color: #3399ff;
+    border: 1px solid #3399ff;
+}
+
+.blue-black button {
+    background-color: #3399ff;
+}
+
+/* Purple & White Theme */
+body.purple-white {
+    background-color: #f0e6ff;
+    color: #800080;
+}
+
+.purple-white .container {
+    background-color: #e0ccff;
+    border: 5px solid #800080;
+}
+
+.purple-white h2 {
+    color: #800080;
+}
+
+.purple-white input[type="text"],
+.purple-white textarea {
+    background-color: #fff;
+    color: #800080;
+    border: 1px solid #800080;
+}
+
+.purple-white button {
+    background-color: #800080;
+}
+
+/* Purple & Black Theme */
+body.purple-black {
+    background-color: #14121f;
+    color: #b366ff;
+}
+
+.purple-black .container {
+    background-color: #28253a;
+    border: 5px solid #b366ff;
+}
+
+.purple-black h2 {
+    color: #b366ff;
+}
+
+.purple-black input[type="text"],
+.purple-black textarea {
+    background-color: #14121f;
+    color: #b366ff;
+    border: 1px solid #b366ff;
+}
+
+.purple-black button {
+    background-color: #b366ff;
+}
+
+/* Black & White Theme */
+body.black-white {
+    background-color: #333;
+    color: #fff;
+}
+
+.black-white .container {
+    background-color: #555;
+    border: 5px solid #fff;
+}
+
+.black-white h2 {
+    color: #fff;
+}
+
+.black-white input[type="text"],
+.black-white textarea {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.black-white button {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Brown Color Scheme */
+body.brown {
+    background-color: #8B4513;
+    color: #fff;
+}
+
+.brown .container {
+    background-color: #A0522D;
+    border: 5px solid #fff;
+}
+
+.brown h2 {
+    color: #fff;
+}
+
+.brown input[type="text"],
+.brown textarea {
+    background-color: #8B4513;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.brown button {
+    background-color: #fff;
+    color: #8B4513;
+}
+
+/* Light Cocoa Theme */
+body.light-brown {
+    background-color: #f5deb3;
+    color: #6b4f3e;
+}
+
+.light-brown .container {
+    background-color: #fff8dc;
+    border: 5px solid #6b4f3e;
+}
+
+.light-brown h2 {
+    color: #6b4f3e;
+}
+
+.light-brown input[type="text"],
+.light-brown textarea {
+    background-color: #fff;
+    color: #6b4f3e;
+    border: 1px solid #6b4f3e;
+}
+
+.light-brown button {
+    background-color: #6b4f3e;
+    color: white;
+}
+
+/* Pink & White Theme */
+body.pink-white {
+    background-color: #ffe6f2;
+    color: #cc6699;
+}
+
+.pink-white .container {
+    background-color: #fff0f5;
+    border: 5px solid #cc6699;
+}
+
+.pink-white h2 {
+    color: #cc6699;
+}
+
+.pink-white input[type="text"],
+.pink-white textarea {
+    background-color: #fff;
+    color: #cc6699;
+    border: 1px solid #cc6699;
+}
+
+.pink-white button {
+    background-color: #cc6699;
+    color: white;
+}
+
+/* Pink & Black Theme */
+body.pink-black {
+    background-color: #333;
+    color: #ff99cc;
+}
+
+.pink-black .container {
+    background-color: #4d4d4d;
+    border: 5px solid #ff99cc;
+}
+
+.pink-black h2 {
+    color: #ff99cc;
+}
+
+.pink-black input[type="text"],
+.pink-black textarea {
+    background-color: #333;
+    color: #ff99cc;
+    border: 1px solid #ff99cc;
+}
+
+.pink-black button {
+    background-color: #ff99cc;
+    color: #333;
+}
